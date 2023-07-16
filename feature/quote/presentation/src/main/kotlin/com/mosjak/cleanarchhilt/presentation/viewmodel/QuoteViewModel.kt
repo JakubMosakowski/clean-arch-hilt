@@ -6,7 +6,7 @@ import dagger.hilt.android.lifecycle.HiltViewModel
 import javax.inject.Inject
 
 @HiltViewModel
-class QuoteViewModel @Inject constructor(
+internal class QuoteViewModel @Inject constructor(
     private val useCase: GetQuotesUseCase
 ) : ViewModel() {
 

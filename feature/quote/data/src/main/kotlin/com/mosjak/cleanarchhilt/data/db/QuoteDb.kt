@@ -5,7 +5,7 @@ import javax.inject.Inject
 import javax.inject.Singleton
 
 @Singleton
-class QuoteDb @Inject constructor() {
+internal class QuoteDb @Inject constructor() {
 
     fun getQuotes(): List<Quote> = listOf(
         Quote(1, "Quote 1", "Author 1"),
